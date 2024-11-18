@@ -29,43 +29,7 @@ Frontend: React, CSS3, Bootstrap/Material UI for styling, and Stripe integration
 Backend: Node.js with Express.js, and WebSockets for real-time updates.
 Database: MongoDB for efficient, scalable data storage.
 Payment Integration: Stripe for secure and seamless payment processing.
-Getting Started
 
-Clone the Repository: git clone <repo-url>
-Install Dependencies:
-cd client
-npm install
-cd ../server
-npm install
-Set Up Environment Variables: Add environment variables for MongoDB, Stripe keys, and JWT secrets in a .env file.
-Run the Application:
-Start the client: npm start from the client folder.
-Start the server: npm start from the server folder.
-Project Structure
-
-Food Delivery App/
-│
-├── client/                  # Frontend code (React)
-│   ├── public/
-│   ├── src/
-│       ├── components/
-│       ├── pages/
-│       └── utils/
-│
-├── server/                  # Backend code (Node.js, Express)
-│   ├── config/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   └── middleware/
-│
-├── admin/                   # Admin panel (React, can be separate or part of client)
-│   ├── components/
-│   └── pages/
-│
-├── .env                     # Environment variables
-├── README.md
-└── package.json
 Future Enhancements
 
 Push Notifications: Notify users about order updates and special offers.
